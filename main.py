@@ -13,5 +13,5 @@ languages = ["Russian", "French", "English", "Deutch"]
 combobox = ttk.Combobox(values=languages, state="readonly")
 combobox.pack(anchor=NW, fill=X, padx=5, pady=5)
 combobox.bind("<<ComboboxSelected>>", selected)
- 
+print("Programm started")
 root.mainloop()
